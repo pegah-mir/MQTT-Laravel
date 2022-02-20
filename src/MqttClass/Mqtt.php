@@ -47,17 +47,17 @@ class Mqtt
 
     public function __construct(array $configs = [])
     {
-        $this->host         = array_key_exists('mqtt.host', $configs) ? $configs['mqtt.host'] : config('mqtt.host');
-        $this->username     = array_key_exists('mqtt.username', $configs) ? $configs['mqtt.username'] : config('mqtt.username');
-        $this->password     = array_key_exists('mqtt.password', $configs) ? $configs['mqtt.password'] : config('mqtt.password');
-        $this->cert_file    = array_key_exists('mqtt.certfile', $configs) ? $configs['mqtt.certfile'] : config('mqtt.certfile');
-        $this->local_cert   = array_key_exists('mqtt.localcert', $configs) ? $configs['mqtt.localcert'] : config('mqtt.localcert');
-        $this->local_pk     = array_key_exists('mqtt.localpk', $configs) ? $configs['mqtt.localpk'] : config('mqtt.localpk');
-        $this->port         = array_key_exists('mqtt.port', $configs) ? $configs['mqtt.port'] : config('mqtt.port');
-        $this->timeout      = array_key_exists('mqtt.timeout', $configs) ? $configs['mqtt.timeout'] : config('mqtt.timeout');
-        $this->debug        = array_key_exists('mqtt.debug', $configs) ? $configs['mqtt.debug'] : config('mqtt.debug');
-        $this->qos          = array_key_exists('mqtt.qos', $configs) ? $configs['mqtt.qos'] : config('mqtt.qos');
-        $this->retain       = array_key_exists('mqtt.retain', $configs) ? $configs['mqtt.retain'] : config('mqtt.retain');
+        $this->host         = array_key_exists('host', $configs) ? $configs['host'] : config('mqtt.host');
+        $this->username     = array_key_exists('username', $configs) ? $configs['username'] : config('mqtt.username');
+        $this->password     = array_key_exists('password', $configs) ? $configs['password'] : config('mqtt.password');
+        $this->cert_file    = array_key_exists('certfile', $configs) ? $configs['certfile'] : config('mqtt.certfile');
+        $this->local_cert   = array_key_exists('localcert', $configs) ? $configs['localcert'] : config('mqtt.localcert');
+        $this->local_pk     = array_key_exists('localpk', $configs) ? $configs['localpk'] : config('mqtt.localpk');
+        $this->port         = array_key_exists('port', $configs) ? $configs['port'] : config('mqtt.port');
+        $this->timeout      = array_key_exists('timeout', $configs) ? $configs['timeout'] : config('mqtt.timeout');
+        $this->debug        = array_key_exists('debug', $configs) ? $configs['debug'] : config('mqtt.debug');
+        $this->qos          = array_key_exists('qos', $configs) ? $configs['qos'] : config('mqtt.qos');
+        $this->retain       = array_key_exists('retain', $configs) ? $configs['retain'] : config('mqtt.retain');
     }
 
 
