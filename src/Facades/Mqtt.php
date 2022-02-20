@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: salman
+ * User: pegah
  * Date: 2/27/19
  * Time: 12:03 PM
  */
 
-namespace Salman\Mqtt\Facades;
+namespace Pegah\Mqtt\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

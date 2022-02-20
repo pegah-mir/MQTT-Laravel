@@ -1,6 +1,6 @@
 <?php
 
-use Salman\Mqtt\MqttClass\Mqtt;
+use Pegah\Mqtt\MqttClass\Mqtt;
 
 
 if (!function_exists('connectToPublish'))

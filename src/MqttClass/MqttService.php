@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: salman
+ * User: pegah
  * Date: 2/22/19
  * Time: 2:34 PM
  */
 
-namespace Salman\Mqtt\MqttClass;
+namespace Pegah\Mqtt\MqttClass;
 
 /*
 	A simple php class to connect/publish/Subscribe to an MQTT broker

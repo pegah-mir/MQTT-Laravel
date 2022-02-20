@@ -1,17 +1,17 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: salman
+ * User: pegah
  * Date: 2/22/19
  * Time: 1:16 PM
  */
 
-namespace Salman\Mqtt\MqttClass;
+namespace Pegah\Mqtt\MqttClass;
 
 /*
 	Licence
-	Copyright (c) 2019 Salman Zafar
-	salmanzafar949@gmail.com
+	Copyright (c) 2019 Pegah Zafar
+	zohremirzaee93@gmail.com
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights

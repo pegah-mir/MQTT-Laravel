@@ -4,11 +4,11 @@ A simple Laravel Library to connect/publish/subscribe to MQTT broker
 
 Based on [bluerhinos/phpMQTT](https://github.com/bluerhinos/phpMQTT)
 
-For Example see this [repo](https://github.com/salmanzafar949/Laravel-Mqtt-Example)
+For Example see this [repo](https://github.com/pegah-mir/Laravel-Mqtt-Example)
 
 ## Installation
 ```
-composer require salmanzafar/laravel-mqtt
+composer require pegah-mir/laravel-mqtt
 ```
 ## Features
 
@@ -32,20 +32,20 @@ To declare the provider and/or alias explicitly, then add the service provider t
 ```
 'providers' => [
 
-        Salman\Mqtt\MqttServiceProvider::class,
+        Pegah\Mqtt\MqttServiceProvider::class,
 ];
 ```
 And then add the alias to your config/app.php:
 ```
 'aliases' => [
 
-       'Mqtt' => \Salman\Mqtt\Facades\Mqtt::class,
+       'Mqtt' => \Pegah\Mqtt\Facades\Mqtt::class,
 ];
 ```
 ## Configuration
 Publish the configuration file
 ```
-php artisan vendor:publish --provider="Salman\Mqtt\MqttServiceProvider"
+php artisan vendor:publish --provider="Pegah\Mqtt\MqttServiceProvider"
 ```
 ## Config/mqtt.php
 ```
@@ -63,7 +63,7 @@ php artisan vendor:publish --provider="Salman\Mqtt\MqttServiceProvider"
 #### Publishing topic
 
 ```
-use Salman\Mqtt\MqttClass\Mqtt;
+use Pegah\Mqtt\MqttClass\Mqtt;
 
 public function SendMsgViaMqtt($topic, $message)
 {
@@ -102,7 +102,7 @@ public function SendMsgViaMqtt($topic, $message)
 #### Subscribing topic
 
 ```
-use Salman\Mqtt\MqttClass\Mqtt;
+use Pegah\Mqtt\MqttClass\Mqtt;
 
 public function SubscribetoTopic($topic)
     {
